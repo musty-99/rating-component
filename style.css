@@ -1,0 +1,56 @@
+* ,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141519;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.box {
+  width: 400px;
+  height: 600px;
+}
+
+h1 {
+  color: white;
+}
+
+.star--circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1f2630;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -20px;
+}
+
+p {
+  color: white;
+}
+
+div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+button {
+  background-color: #fc7613;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
